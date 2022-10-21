@@ -569,3 +569,271 @@ footer {
     transform: rotate(-40deg);
   }
 }
+
+/* MEDIA QUERy*/
+
+@media screen and (max-width: 576px) {
+  .nav-items {
+    display: none;
+  }
+
+  /* SECTION-1 */
+
+  .section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-1-heading {
+    font-size: 25px;
+  }
+
+  .section-1-description {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .Section-1-button {
+    font-size: 15px;
+    padding: 5px 20px;
+  }
+
+  .section-1-right > img {
+    margin-top: 60px;
+    width: 280px;
+    margin-left: 20px;
+  }
+
+  /* SECTION-2 */
+
+  .section-2 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-2-left > img {
+    width: 280px;
+    margin-left: -20px;
+  }
+
+  .section-2-heading {
+    font-size: 22px;
+    margin-top: 40px;
+  }
+
+  .section-2-description {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .section-2-button {
+    font-size: 15px;
+    padding: 5px 20px;
+  }
+
+  /* SECTION 3 */
+
+  .section-3 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-3-heading {
+    font-size: 22px;
+    margin-top: 40px;
+  }
+
+  .section-3-description {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .Section-3-button {
+    font-size: 15px;
+    padding: 5px 20px;
+  }
+
+  .section-3-right > img {
+    margin-top: 60px;
+    width: 280px;
+    margin-left: -20px;
+  }
+
+  /* SECTION-4 */
+  .section-4 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-4-Left {
+    margin-top: -40px;
+  }
+
+  .section-4-heading {
+    font-size: 22px;
+    margin-top: 40px;
+  }
+
+  .section-4-description {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  /* SECTION 5 */
+  .section-5 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+  }
+
+  .section-5-1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+  }
+
+  /* SECTION-6 */
+
+  .section-6 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -80px;
+  }
+  .section-6-heading {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 50px;
+  }
+
+  .plans {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plan {
+    padding: 20px;
+    margin-bottom: 40px;
+    /* width: 210px; */
+  }
+
+  .plan-heading {
+    font-size: 22px;
+  }
+
+  .plan-description {
+    margin-bottom: -30px;
+  }
+
+  .item {
+    font-size: 11px;
+    margin-bottom: -20px;
+  }
+
+  .item > img {
+    width: 10px;
+    padding-right: 10px;
+  }
+
+  .pricing {
+    font-size: 18px;
+  }
+
+  .span {
+    font-size: 18px;
+  }
+
+  .cancel {
+    font-size: 14px;
+  }
+
+  .choosePlan {
+    font-size: 15px;
+    padding: 5px 20px;
+    margin-left: 20px;
+  }
+
+  /* SECTION 7 */
+  .customer-heading {
+    font-size: 22px;
+  }
+
+  .customer-description {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .customer-feedback {
+    font-size: 14px;
+  }
+
+  .circle {
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .user-contact > h3 {
+    font-size: 13px;
+  }
+
+  .user-contact > h6 {
+    font-size: 11px;
+  }
+
+  .register {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-heading {
+    font-size: 18px;
+  }
+
+  .register-decscription {
+    margin-top: 50px;
+    font-size: 12px;
+  }
+
+  .register-right {
+    margin-left: 10px;
+  }
+
+  .register-right > button {
+    font-size: 20px;
+    padding: 5px 20px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-info {
+    margin-right: 20px;
+    width: 260px;
+    margin-bottom: 50px;
+  }
+
+  .footer-menu,
+  .footer-links,
+  .footer-overview {
+    margin-bottom: 50px;
+  }
+}
