@@ -806,6 +806,9 @@ footer {
     font-size: 11px;
   }
 
+
+  /* SECTION 8 */
+
   .register {
     display: flex;
     flex-direction: column;
@@ -829,6 +832,7 @@ footer {
     padding: 5px 20px;
   }
 
+  /* FOOTER */
   footer {
     display: flex;
     flex-direction: column;
