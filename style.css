@@ -20,12 +20,12 @@ nav {
 .logo {
   margin-left: 40px;
   cursor: pointer;
+  transition: all 1s ease-in-out;
 }
 
 .logo > img {
   width: 130px;
   cursor: pointer;
-  transition: all 1000ms ease-in-out;
 }
 
 .logo:hover {
@@ -317,6 +317,7 @@ nav {
 
 .plan:hover {
   transform: scale(1.05);
+  box-shadow: 5px 5px 10px #808080;
 }
 
 .plan-heading {
@@ -561,10 +562,10 @@ footer {
 /* SHAKE ANIMATION */
 @keyframes shake {
   25% {
-    transform: rotate(10deg);
+    transform: rotate(40deg);
   }
 
   75% {
-    transform: rotate(-10deg);
+    transform: rotate(-40deg);
   }
 }
